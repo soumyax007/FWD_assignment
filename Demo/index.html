@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Soumyadip Debnath | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Soumyadip Debnath</h1>
+
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item active"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero container">
+        <img src="../Assets/Screenshot 2026-02-19 at 5.01.35 PM.png" alt="Profile Photo" class="profile-img">
+
+        <div class="hero-text">
+            <h2>Computer Science Student</h2>
+            <p>
+                Passionate about software development and problem solving.
+                Exploring systems, web technologies and core CS fundamentals.
+            </p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+        <h2 class="section-title">About Me</h2>
+
+        <p class="about-text">
+            I am a dedicated Computer Science student who enjoys building structured,
+            scalable and clean projects. This paragraph demonstrates pseudo-elements,
+            combinators and typography styling.
+        </p>
+        <section class="section container">
+            <h2 class="section-title">Education</h2>
+
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>University</th>
+                        <th>Course</th>
+                        <th>CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>South Asian University</td>
+                        <td>B.Tech in Computer Science</td>
+                        <td>6.28</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <!-- Overflow Demonstration -->
+        <div class="overflow-wrapper">
+            <div class="overflow-box hidden">
+                Overflow Hidden Example. This content is intentionally long to demonstrate clipping.
+            </div>
+
+            <div class="overflow-box scroll">
+                Overflow Scroll Example. This content is intentionally long to demonstrate scrolling.
+            </div>
+
+            <div class="overflow-box auto">
+                Overflow Auto Example. This content is intentionally long to demonstrate automatic behavior.
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="card-container">
+            <div class="card">Portfolio Website</div>
+            <div class="card">Data Structures in C</div>
+            <div class="card">Mini Python Tools</div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">C Programming</div>
+            <div class="skill-card">Python</div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+        <h2 class="section-title">Contact</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- PAGINATION -->
+    <div class="pagination container">
+        <a href="#" class="page active-page">1</a>
+        <a href="#" class="page">2</a>
+        <a href="#" class="page">3</a>
+        <a href="#" class="page">Next</a>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Soumyadip Debnath. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
